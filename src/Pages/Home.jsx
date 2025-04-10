@@ -310,7 +310,7 @@ const Home = () => {
                         <IoIosInformationCircleOutline className='h-6 w-7' />
                     </div>
 
-                    <div className='mt-10 flex gap-4'>
+                        <div className='mt-10 overflow-x-auto flex gap-4'>
                         <p onClick={() => setActiveTab('checked')}
                             className={`flex items-center ${activeTab === "checked" ? 'border-b-4 border-[#2d657e] text-[#2d657e] ' : 'text-gray-400 '} gap-2 font-semibold cursor-pointer`}>
                             <BiCheckDouble className='w-8 h-8' />Checked payments</p>
