@@ -7,14 +7,12 @@ import Loader from './Pages/Loader'
 
 const App = () => {
   return (
-    <div>
       <Routes>
         <Route path='/' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/home' element={<Home />} />
         {/* <Route path='/loader' element={<Loader />} /> */}
-      </Routes>
-    </div>
+    </Routes>
   )
 }
 
