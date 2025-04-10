@@ -13,7 +13,7 @@ const Signup = () => {
             <div className='shadow-lg p-9 rounded-3xl md:max-w-xl max-w-[350px] md:mt-1 mt-4  w-full bg-white'>
                 <form className='mt-6 space-y-4' >
                     <div className='items-center flex flex-col'>
-                        <h2 className='font-semibold mb-4 text-4xl text-black'>Home net</h2>
+                        <h2 className='font-semibold mb-4 text-4xl text-black'>Colloh net</h2>
                         <hr className='w-[50px] border-b border-3 border-[#2d657e] rounded-2xl mb-4' />
 
                         <p className='text-gray-700 font-medium mt-3'>Create your account</p>
@@ -76,7 +76,7 @@ const Signup = () => {
 
 
                     <div className='flex items-center '>
-                        <button type="submit" className="w-full bg-[#2d657e] cursor-pointer py-2 rounded-lg text-white transform transition-all hover:scale-103">
+                        <button onClick={() => navigate('/home')} type="submit" className="w-full bg-[#2d657e] cursor-pointer py-2 rounded-lg text-white transform transition-all hover:scale-103">
                             Register
                         </button>
 
