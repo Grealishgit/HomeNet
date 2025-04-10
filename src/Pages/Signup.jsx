@@ -76,7 +76,7 @@ const Signup = () => {
 
 
                     <div className='flex items-center '>
-                        <button onClick={() => navigate('/home')} type="submit" className="w-full bg-[#2d657e] cursor-pointer py-2 rounded-lg text-white transform transition-all hover:scale-103">
+                        <button onClick={() => navigate('/home')} className="w-full bg-[#2d657e] cursor-pointer py-2 rounded-lg text-white transform transition-all hover:scale-103">
                             Register
                         </button>
 

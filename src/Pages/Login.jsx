@@ -16,7 +16,7 @@ const Login = () => {
                         <hr className='w-[50px] border-b border-3 border-[#2d657e] rounded-2xl mb-4' />
 
                         <p className='text-gray-700 font-medium mt-3'>Welcome back! Log in to your account</p>
-                        <p >Or <span onClick={() => navigate('/signup')} className='text-[#2d657e] hover:underline cursor-pointer font-semibold'>sign up for an account</span> </p>
+                        <p >Or <a href='/signup' className='text-[#2d657e] hover:underline cursor-pointer font-semibold'>sign up for an account</a> </p>
                     </div>
                     <div className='flex flex-col'>
                         <label className='mb-2 '>Username<span className='text-red-500'>*</span> </label>
@@ -58,7 +58,7 @@ const Login = () => {
                     </div>
 
                     <div className='flex items-center '>
-                        <button onClick={() => navigate('/signup')} type="submit" className="w-full bg-[#2d657e] cursor-pointer py-2 rounded-lg text-white transform transition-all hover:scale-103">
+                        <button onClick={() => navigate('/signup')} className="w-full bg-[#2d657e] cursor-pointer py-2 rounded-lg text-white transform transition-all hover:scale-103">
                             Login
                         </button>
 
