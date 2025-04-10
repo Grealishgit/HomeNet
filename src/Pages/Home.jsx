@@ -22,7 +22,7 @@ const Home = () => {
     useEffect(() => {
         const handleClickOutside = (event) => {
             if (ref.current && !ref.current.contains(event.target)) {
-                setOpen(false), setOpenSidebar(false);
+                setOpen(false), setOpenSidebar(false), setOpen(false);
             }
         };
         document.addEventListener('mousedown', handleClickOutside);
@@ -114,7 +114,8 @@ const Home = () => {
 
                             <IoSettingsOutline
                                 className="h-8 w-8 text-gray-400 cursor-pointer"
-                                onClick={() => setOpen(!open)}
+                                    onClick={() => setOpen(!open)}
+                                    ref={ref}
                             />
 
                             <div
@@ -278,7 +279,8 @@ const Home = () => {
 
                             <IoSettingsOutline
                                 className="h-8 w-8 text-gray-400 cursor-pointer"
-                                onClick={() => setOpen(!open)}
+                                    onClick={() => setOpen(!open)}
+                                    ref={ref}
                             />
 
                             <div
