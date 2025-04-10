@@ -271,7 +271,7 @@ const Home = () => {
                                 <input
                                     type="text"
                                     placeholder="search"
-                                    className="border border-gray-200 py-2 pl-10 md:w-[280px] w-[250px] rounded-lg"
+                                        className="border border-gray-200 py-2 pl-10 md:w-[280px] w-[210px] rounded-lg"
                                 />
                                 <CiSearch className="absolute left-3 text-gray-400" />
                             </div>
@@ -310,7 +310,7 @@ const Home = () => {
                         <IoIosInformationCircleOutline className='h-6 w-7' />
                     </div>
 
-                        <div className='mt-10 overflow-x-auto flex gap-4'>
+                        <div className='mt-10  flex flex-row gap-4'>
                         <p onClick={() => setActiveTab('checked')}
                             className={`flex items-center ${activeTab === "checked" ? 'border-b-4 border-[#2d657e] text-[#2d657e] ' : 'text-gray-400 '} gap-2 font-semibold cursor-pointer`}>
                             <BiCheckDouble className='w-8 h-8' />Checked payments</p>
@@ -338,13 +338,13 @@ const Home = () => {
                                 <div className="flex items-center justify-center flex-col h-screen">
                                     <IoMdClose className='rounded-full w-10 h-10 text-gray-400 bg-gray-100' />
                                     <p className='font-semibold mt-4'>No payments</p>
-                                    <p className='text-gray-400' >Buy packages to view your payments here</p>
+                                        <p className='text-gray-400 text-lg text-center' >Buy packages to view your payments here</p>
                                 </div>
                             ) : (
                                 <div className="flex items-center justify-center flex-col h-screen">
                                     <IoMdClose className='rounded-full w-10 h-10 text-gray-400 bg-gray-100' />
                                     <p className='font-semibold mt-4'>No payments</p>
-                                            <p className='text-red-400 text-lg text-center justify-center' >Buy packages to view your payments here</p>
+                                            <p className='text-gray-400 text-lg text-center' >Buy packages to view your payments here</p>
                                 </div>
                             )}
                         </div>
