@@ -344,7 +344,7 @@ const Home = () => {
                                 <div className="flex items-center justify-center flex-col h-screen">
                                     <IoMdClose className='rounded-full w-10 h-10 text-gray-400 bg-gray-100' />
                                     <p className='font-semibold mt-4'>No payments</p>
-                                    <p className='text-gray-400' >Buy packages to view your payments here</p>
+                                            <p className='text-red-400 text-lg text-center justify-center' >Buy packages to view your payments here</p>
                                 </div>
                             )}
                         </div>
