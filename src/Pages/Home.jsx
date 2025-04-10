@@ -13,7 +13,7 @@ const Home = () => {
 
     const [sideBar, setSideBar] = useState('');
     const [open, setOpen] = useState(false);
-    const [openSidebar, setOpenSidebar] = useState(true)
+    const [openSidebar, setOpenSidebar] = useState(false)
     const [page, setPage] = useState('packages');
     const [activeTab, setActiveTab] = useState("checked");
     const ref = useRef();
@@ -107,7 +107,7 @@ const Home = () => {
                                 <input
                                     type="text"
                                     placeholder="search"
-                                    className="border border-gray-200 py-2 pl-10 md:w-[280px] w-[250px] rounded-lg"
+                                        className="border border-gray-200 py-2 pl-10 md:w-[280px] w-[210px] rounded-lg"
                                 />
                                 <CiSearch className="absolute left-3 text-gray-400" />
                             </div>
@@ -124,7 +124,7 @@ const Home = () => {
                             >
                                 <div className="flex items-center gap-2 text-gray-700 font-medium">
                                     <FaRegUserCircle />
-                                    <p className="font-normal">Hunter42</p>
+                                        <p className="font-normal">Colloclesh</p>
                                 </div>
 
                                 <div className="flex justify-between items-center text-gray-400 rounded-md p-2">
@@ -327,7 +327,7 @@ const Home = () => {
                             <input
                                 type="text"
                                 placeholder="Search"
-                                className="border border-gray-300 rounded-2xl focus:outline-2 focus:ring-1 focus:outline-[#2d657e] py-1.5 pl-10 md:w-[280px] w-[250px]"
+                                    className="border border-gray-300 rounded-2xl focus:outline-2 focus:ring-1 focus:outline-[#2d657e] py-1.5 pl-10 md:w-[280px] w-[210px]"
                             />
                         </div>
 
